@@ -8,7 +8,7 @@ The program allows to vizualize consecutive expansions in Fourier series of a fu
 ## Run
 
 ```
-git clone https://www.github.com/bartek-krk/fourierseries.git
+git clone https://www.github.com/bartek-krk/fourier-series.git
 pip install matplotlib
 pip install numpy
 pip install imageio
