@@ -6,6 +6,7 @@ Created on Tue Jun  9 19:48:29 2020
 @param formula - formula under the summation sign
 @param a0 - constant
 @param rank - number of summed sines
+@param border - symmetrical leftmost and rightmost expansion border
 """
 
 from numpy import sin, cos, pi, linspace
@@ -34,7 +35,9 @@ def fourier(aRank,t):
 
 
         
-x = linspace(-pi,pi)
+border = pi
+
+x = linspace(-border,border)
 
 rank = 60
 
