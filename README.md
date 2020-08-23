@@ -7,12 +7,12 @@ The program allows to vizualize consecutive expansions in Fourier series of a fu
 
 ## Run
 
-Git Bash
+Git Bash:
 ```
 git clone https://www.github.com/bartek-krk/fourier-series.git .
 ```
 
-Cmd
+Cmd:
 ```
 cd /path-to-file/
 pip install matplotlib
